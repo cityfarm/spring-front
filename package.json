@@ -2,7 +2,7 @@
   "name": "learnsb-front",
   "version": "0.1.0",
   "private": true,
-
+  "homepage": "https://cityfarm.github.io/spring-front",
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -45,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.2.0",
     "resolve-url-loader": "^5.0.0"
   }
