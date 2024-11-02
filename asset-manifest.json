@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.deb38e4e.css",
-    "main.js": "/static/js/main.26460298.js",
-    "static/js/453.1af0b359.chunk.js": "/static/js/453.1af0b359.chunk.js",
-    "index.html": "/index.html",
-    "main.deb38e4e.css.map": "/static/css/main.deb38e4e.css.map",
-    "main.26460298.js.map": "/static/js/main.26460298.js.map",
-    "453.1af0b359.chunk.js.map": "/static/js/453.1af0b359.chunk.js.map"
+    "main.css": "/spring-front/static/css/main.deb38e4e.css",
+    "main.js": "/spring-front/static/js/main.989b07f2.js",
+    "static/js/453.1af0b359.chunk.js": "/spring-front/static/js/453.1af0b359.chunk.js",
+    "index.html": "/spring-front/index.html",
+    "main.deb38e4e.css.map": "/spring-front/static/css/main.deb38e4e.css.map",
+    "main.989b07f2.js.map": "/spring-front/static/js/main.989b07f2.js.map",
+    "453.1af0b359.chunk.js.map": "/spring-front/static/js/453.1af0b359.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.deb38e4e.css",
-    "static/js/main.26460298.js"
+    "static/js/main.989b07f2.js"
   ]
 }
