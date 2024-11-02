@@ -2,7 +2,7 @@
   "name": "learnsb-front",
   "version": "0.1.0",
   "private": true,
-  // "homepage": "https://cityfarm.github.io/spring-front",
+
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
