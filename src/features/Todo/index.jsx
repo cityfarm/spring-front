@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import TodoList from './components/TodoList';
+import TodoForm from './components/TodoForm';
 
 TodoFeature.propTypes = {}
 
@@ -31,9 +32,16 @@ function TodoFeature(props) {
         setToDoList(newTodoList);
     }
 
+    const handleTodoFormSubmit = (values) =>{
+        console.log("Form submit values: ",values)
+    }
+
     return (
         <div>
-            <h3> To Do List</h3>
+            <h3> Demo Todo Form</h3>
+            <TodoForm onSubmit={handleTodoFormSubmit} />
+
+            <h3> Demo Todo List</h3> 
             {/* render todoList && onToDoClick */}
             <TodoList todoList={todoList} onToDoClick={handleTodoClick} />
         </div>
