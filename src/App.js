@@ -9,12 +9,11 @@ import productApi from './api/productApi';
 function App() {
   useEffect(() => {
     const fetchProducts = async () => {
-      const productList =  await productApi.getAll();
+      const productList = await productApi.getAll();
       console.log(productList);
     };
 
     fetchProducts();
-
   }, []);
 
   return (
@@ -31,6 +30,15 @@ function App() {
           <NavLink to="/albums">Albums</NavLink>
         </p>
         <Routes>
+          <Route
+            path="/"
+            element={
+              <div>
+                <h2>Welcome to the Home Page</h2>
+                <p>This is the content of the Home Page.</p>
+              </div>
+            }
+          />
           <Route path="/todos" element={<TodoFeature />} />
           <Route path="/albums" element={<AlbumFeature />} />
           <Route path="*" element={<NotFound />} />
